@@ -1,11 +1,6 @@
 {
-  "name": "chopper-downloader-bot",
+  "name": "chopper-server",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "telegraf": "^4.16.3"
-  }
+  "type": "module",
+  "dependencies": { "express": "^4.19.2" }
 }
